@@ -153,5 +153,132 @@
 # else:
 #     print("ERROR")
 #Task6
-# не доробив
+# temp=float(input("Введіть поточну температур Цельсіях:"))
+# if temp<-10:
+#     print("Дуже холодно")
+# elif -10=<temp<0:
+#     print("Холодно")
+# elif 0<temp=<15:
+#     print("Прохолодно")
+# elif 15>temp=<25:
+#     print("Тепло")
+# elif temp>25:
+#     print("Спекотно")
+#Частина 4
+#Task1
+# figur=int(input("Введіть кількість сторін вашої фігури(min-3,max-8):"))
+# if figur==3:
+#     print("Трикутник")
+# elif figur==4:
+#     print("Чотирикутник")
+# elif figur==5:
+#     print("Пятикутник")
+# elif figur==6:
+#     print("Шестикутник")
+# elif figur==7:
+#     print("Семикутник")
+# elif figur==8:
+#     print("Восьмикутник")
+#Task2
+# age=int(input("Введіть ваш вік що направити вас в потрібну категорію змаганнь:"))
+# if age<=10:
+#     print("Ваша категорія змаганнь дитяча)")
+# elif 10<age<18:
+#     print("Ваша категорія змаганнь юніорська)")
+# elif 18<=age<50:
+#     print("Ваша категорія змаганнь доросла)")
+# elif 50<=age:
+#     print("Ваша категорія змаганнь ветеранська)")
+#Task3
+# clock,minute=map(int,input("Введіть через пробіл яка година і яка хвилина на годинику:").split())
+# if 0<=clock<=5 and 0<=minute<60:
+#     print("На дворі ніч:(")
+# elif 6<=clock<11 and 0<=minute<60:
+#     print("На дворі ранок:/")
+# elif 12<=clock<17 and 0<=minute<60:
+#     print("На дворі день:)")
+# elif 18<=clock<23 and 0<=minute<60:
+#     print("На дворі вечір:(")
+#Task4
+# weight=int(input("Введіть вашу вагу:"))
+# if weight<=40:
+#     print("Ваша категорія ваги легка)")
+# elif 40<weight<75:
+#     print("Ваша категорія ваги середня)")
+# elif 76<=weight<110:
+#     print("Ваша категорія ваги важка)")
+# elif 110<=weight:
+#     print("Ваша категорія ваги суперважка)")
+#Task5
+# score=int(input("Введіть ваш бал від 0 до 100:"))
+# if 0<=score<=59:
+#     print("Ваша оцінка F")
+# elif 60<=score<=69:
+#     print("Ваша оцінка D")
+# elif 70<=score<=79:
+#     print("Ваша оцінка C")
+# elif 80<=score<=89:
+#     print("Ваша оцінка B")
+# elif 90<=score<=100:
+#     print("Ваша оцінка A")
+#Task6
+# days=int(input("Введіть кількість днів в місяці 30 або 31 або 28/29 якщо це лютий:"))
+# if days==30:
+#     print("За введеною кількостю днів в 2025 році це може бути один з цих місяців:Січень,Березень,Травень,Липень,Серпень,Жовтень,Грудень")
+# elif days==31:
+#     print("За введеною кількостю днів в 2025 році це може бути один з цих місяців:Квітень,Червень,Вересень,Листопад")
+# elif days==28 or days==29:
+#     print("Це Лютий")
+# elif days<=28 or days<=29:
+#     print("Дана кількість днів є у всіх місяцях!!!!")
+#Частина3
+#Task1
+# number=int(input("\033[92mВведіть номер місяця від 1 до 12:"))
+# if number==1 or number==2 or number==12: #number in [1,2,12]
+#     print("\033[34mWinter")
+# elif 3<=number<=5:
+#     print("\033[35mSpring")
+# elif 6<=number<=8:
+#     print("\033[32mSummer")
+# elif 9<=number<=11:
+#     print("\033[33mAutumn")
+# else:
+#     print("\033[30m\033[41mERORR!!!!!!!\033[0m")
+#Task2
+# score=int(input("Введіть ваш бал від 0 до 100:"))
+# if 90<=score<=100:
+#     print("Ваша оцінка Відмінно")
+# elif 70<=score<=89:
+#     print("Ваша оцінка Добре")
+# elif 50<=score<=69:
+#     print("Ваша оцінка Задовільно")
+# elif score<50:
+#     print("Ваша оцінка Незадовільно")
+#Task3
+# age=float(input("\033[101m\033[30mКористувач будь-ласка введи свій стаж в роках:"))
+# wage=float(input("\033[102m\033[30mКористувач будь-ласка введіть вашу заробітнью плату:"))
+# if 1<=age<3:
+#     res=wage-(wage*(1-5/100))
+#     print(f"\033[104m\033[30mВаша премія в залежності від вашого стажу={res}грн\033[0m")
+# elif 3<=age<5:
+#     res=wage-(wage*(1-10/100))
+#     print(f"\033[104m\033[30mВаша премія в залежності від вашого стажу={res}грн\033[0m")
+# elif age>=5:
+#     res=wage-(wage*(1-15/100))
+#     print(f"\033[104m\033[30mВаша премія в залежності від вашого стажу={res}грн\033[0m")
+# elif age<1:
+#     print("Премія не передбачена\033[0m")
+#Task4
+# number=input("Введіть будь яке число:")
+# sum=0
+# for digit in number:
+#     sum+=int(digit)
+# if sum%10==0:
+#     print(f"even={sum}")
+# else:
+#     print(f"odd={sum}")
+
+
+
+
 
